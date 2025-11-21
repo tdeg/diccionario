@@ -13,6 +13,7 @@ type Server struct {
 	w wordlist.WordList
 }
 
+// TODO: add logging middleware
 // NewServer instantiates a new HTTP Server.
 func NewServer() (s *Server) {
 	s = &Server{
